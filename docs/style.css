@@ -1,0 +1,117 @@
+:root {
+  --fg: #1a1a1a;
+  --muted: #666;
+  --link: #0b5fa5;
+  --bg: #fafafa;
+  --card: #fff;
+  --border: #e2e2e2;
+  --accent: #b71c1c;
+  --warn-bg: #fff4e5;
+  --warn-border: #f0c060;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  color: var(--fg);
+  background: var(--bg);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 4rem;
+}
+
+h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.75rem;
+}
+
+.meta {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+  font-size: 0.9rem;
+}
+
+.errors {
+  background: var(--warn-bg);
+  border: 1px solid var(--warn-border);
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+.errors ul { margin: 0.25rem 0 0 1.25rem; padding: 0; }
+
+section {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.25rem;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.4rem;
+}
+
+h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+h3 .srclink { color: var(--muted); text-decoration: none; }
+h3 .srclink:hover { color: var(--link); text-decoration: underline; }
+
+.count { color: var(--muted); font-weight: normal; font-size: 0.9em; }
+
+.empty {
+  color: var(--muted);
+  font-style: italic;
+  margin: 0;
+}
+
+table.listings {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+table.listings td {
+  padding: 0.4rem 0.5rem;
+  vertical-align: top;
+  border-top: 1px solid var(--border);
+}
+table.listings tr:first-child td { border-top: none; }
+
+td.title { width: 75%; }
+td.title a { color: var(--link); text-decoration: none; font-weight: 500; }
+td.title a:hover { text-decoration: underline; }
+td.title .sub { color: var(--muted); font-size: 0.85rem; margin-top: 0.1rem; }
+
+td.date {
+  text-align: right;
+  color: var(--muted);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+footer {
+  margin-top: 2rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+footer a { color: var(--muted); }
+
+@media (max-width: 600px) {
+  td.title { width: auto; }
+  td.date { font-size: 0.75rem; }
+}

@@ -1,0 +1,59 @@
+name: scrape
+
+on:
+  schedule:
+    # 06:00 UTC daily = 00:00 US Central (CST) / 01:00 CDT.
+    # GitHub cron is best-effort; actual runs may slip 15-60 min.
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scrape and render
+        id: run
+        # Don't fail the workflow yet on a non-zero exit; we still want to
+        # commit any partial results so we can inspect them. We re-raise
+        # the failure as a final step so GitHub emails the owner.
+        continue-on-error: true
+        run: python update.py
+
+      - name: Commit updated data and page
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/listings.json docs/index.html debug/snapshots || true
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "scrape: update listings ($(date -u +%Y-%m-%d))"
+            for i in 1 2 3 4; do
+              if git push; then break; fi
+              echo "push failed, retry $i..."
+              sleep $((2 ** i))
+            done
+          fi
+
+      - name: Re-raise scrape failure
+        if: steps.run.outcome == 'failure'
+        run: |
+          echo "::error::One or more scrapers failed; see earlier log for details."
+          exit 1
