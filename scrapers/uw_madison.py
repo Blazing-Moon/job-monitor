@@ -2,11 +2,23 @@ from __future__ import annotations
 
 import re
 from typing import Iterable
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 
 from .base import Listing, Scraper
+
+# Real listing URLs look like:
+#   https://jobs.wisc.edu/jobs/<slug>
+#   https://jobs.wisc.edu/jobs/<slug>-<uuid>
+# where <slug> is kebab-case (no slashes) and the optional trailing UUID
+# is the stable posting id. We must exclude /jobs/search and similar
+# navigational links.
+_SLUG_RE = re.compile(r"^/jobs/([a-z0-9][a-z0-9-]+)$", re.I)
+_UUID_RE = re.compile(r"([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})$", re.I)
+
+# Slugs that aren't listings.
+_NON_LISTING_SLUGS = {"search", "saved"}
 
 
 class UWMadisonScraper(Scraper):
@@ -29,12 +41,19 @@ class UWMadisonScraper(Scraper):
         soup = BeautifulSoup(html, "lxml")
         seen: set[str] = set()
 
-        for a in soup.find_all("a", href=re.compile(r"/jobs/\d+")):
-            href = a.get("href", "")
-            m = re.search(r"/jobs/(\d+)", href)
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            # Normalize: only the path matters for matching.
+            path = urlparse(href).path
+            m = _SLUG_RE.match(path)
             if not m:
                 continue
-            source_id = m.group(1)
+            slug = m.group(1)
+            if slug in _NON_LISTING_SLUGS:
+                continue
+
+            uuid_match = _UUID_RE.search(slug)
+            source_id = uuid_match.group(1) if uuid_match else slug
             if source_id in seen:
                 continue
             seen.add(source_id)
@@ -43,28 +62,9 @@ class UWMadisonScraper(Scraper):
             if not title or len(title) < 3:
                 continue
 
-            container = a.find_parent(["li", "article", "div", "tr"])
-            department, location = "", ""
-            if container is not None:
-                department = _extract_field(container, ["department", "school", "division", "unit"])
-                location = _extract_field(container, ["location", "city", "campus"])
-
             yield Listing(
                 source=self.name,
                 source_id=source_id,
                 title=title,
                 url=urljoin(self.url, href),
-                department=department,
-                location=location,
             )
-
-
-def _extract_field(container, keywords: list[str]) -> str:
-    """Best-effort: find a sibling element whose class or text hints at the field."""
-    for kw in keywords:
-        el = container.find(class_=re.compile(kw, re.I))
-        if el:
-            text = el.get_text(" ", strip=True)
-            if text:
-                return text
-    return ""
