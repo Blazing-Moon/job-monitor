@@ -21,10 +21,10 @@ everything that was in it rolls into "still open from prior weeks."
 
 ## How fresh is it
 
-The scraper runs once a day, around 00:00 US Central (give or take an
-hour — GitHub's scheduled runs aren't precise). The "Last updated"
-timestamp at the top of the page tells you exactly when the most recent
-scrape finished.
+The scraper runs once a day in the early morning US Central time
+(give or take an hour — GitHub's scheduled runs aren't precise). The
+"Last updated" timestamp at the top of the page tells you exactly when
+the most recent scrape finished.
 
 ## Sources
 
@@ -41,8 +41,8 @@ scrape finished.
 
 ### How it works
 
-1. `.github/workflows/scrape.yml` runs at 06:00 UTC daily (00:00 CST /
-   01:00 CDT) and on manual dispatch.
+1. `.github/workflows/scrape.yml` runs at 12:00 UTC daily (06:00 CST /
+   07:00 CDT) and on manual dispatch.
 2. `update.py` fetches each source, parses listings, and merges them
    into `data/listings.json`. Each listing has `first_seen` and
    `last_seen` UTC timestamps.

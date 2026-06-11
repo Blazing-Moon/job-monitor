@@ -85,7 +85,7 @@ def render(state: dict, scrape_errors: dict[str, str]) -> str:
     parts.append(_section("Still open from prior weeks", still_open, total_open, empty="Nothing currently open from earlier weeks."))
     parts.append(_section("Recently removed", recently_removed, total_removed, empty="No listings have disappeared recently.", show_dates="removed"))
 
-    parts.append("<footer><p>Data scraped daily at 00:00 US Central. ")
+    parts.append("<footer><p>Data scraped daily, early morning US Central. ")
     parts.append('Source: <a href="https://github.com/blazing-moon/job-monitor">github.com/blazing-moon/job-monitor</a>.</p></footer>')
     parts.append("</main></body></html>")
     return "\n".join(parts)

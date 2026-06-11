@@ -2,9 +2,12 @@ name: scrape
 
 on:
   schedule:
-    # 06:00 UTC daily = 00:00 US Central (CST) / 01:00 CDT.
-    # GitHub cron is best-effort; actual runs may slip 15-60 min.
-    - cron: '0 6 * * *'
+    # 12:00 UTC daily = 06:00 US Central (CST) / 07:00 CDT. Targets a
+    # finish time before Noah's 8 AM Central reading window, while
+    # staying after state-IT overnight maintenance windows (which
+    # caused wisc.jobs connect timeouts at the previous 00:00 Central
+    # slot). GitHub cron is best-effort; actual runs may slip 15-60 min.
+    - cron: '0 12 * * *'
   workflow_dispatch: {}
 
 permissions:
