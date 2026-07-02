@@ -1,9 +1,10 @@
 from __future__ import annotations
 
 import logging
+import time
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Iterable
+from typing import Iterable, Sequence
 
 import requests
 
@@ -14,6 +15,10 @@ BROWSER_UA = (
     "AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/124.0.0.0 Safari/537.36"
 )
+
+# Retry policy for transient network failures (connect/read timeouts,
+# connection errors, 5xx). Sleep intervals between attempts.
+RETRY_BACKOFF_SECONDS: Sequence[int] = (5, 15)
 
 
 @dataclass
@@ -67,9 +72,49 @@ class Scraper:
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": "en-US,en;q=0.9",
         }
-        resp = requests.get(self.url, headers=headers, timeout=30)
-        resp.raise_for_status()
-        return resp.text
+        return self._get(self.url, headers=headers).text
+
+    def _get(
+        self,
+        url: str,
+        *,
+        headers: dict | None = None,
+        timeout: int = 30,
+    ) -> requests.Response:
+        """GET with retries on transient failures.
+
+        Retries on ConnectTimeout / ReadTimeout / ConnectionError / 5xx.
+        Does NOT retry on 4xx (persistent, not worth waiting on).
+        """
+        attempts = len(RETRY_BACKOFF_SECONDS) + 1
+        last_exc: Exception | None = None
+        for i in range(attempts):
+            try:
+                resp = requests.get(url, headers=headers or {}, timeout=timeout)
+                if 500 <= resp.status_code < 600:
+                    raise requests.HTTPError(
+                        f"{resp.status_code} server error", response=resp
+                    )
+                resp.raise_for_status()
+                return resp
+            except (requests.ConnectionError, requests.Timeout) as e:
+                last_exc = e
+            except requests.HTTPError as e:
+                status = e.response.status_code if e.response is not None else 0
+                if 500 <= status < 600:
+                    last_exc = e
+                else:
+                    raise
+            if i < attempts - 1:
+                delay = RETRY_BACKOFF_SECONDS[i]
+                log.warning(
+                    "%s: attempt %d/%d failed (%s: %s); retrying in %ds",
+                    self.name, i + 1, attempts,
+                    type(last_exc).__name__, last_exc, delay,
+                )
+                time.sleep(delay)
+        assert last_exc is not None
+        raise last_exc
 
     def parse(self, html: str) -> Iterable[Listing]:
         raise NotImplementedError
