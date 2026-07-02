@@ -10,7 +10,6 @@ from __future__ import annotations
 from typing import Iterable
 from urllib.parse import urljoin
 
-import requests
 from bs4 import BeautifulSoup
 
 from .base import BROWSER_UA, Listing, Scraper
@@ -38,9 +37,7 @@ class MadisonCityScraper(Scraper):
             "X-Requested-With": "XMLHttpRequest",
             "Referer": PUBLIC_URL,
         }
-        resp = requests.get(LISTINGS_URL, headers=headers, timeout=30)
-        resp.raise_for_status()
-        return resp.text
+        return self._get(LISTINGS_URL, headers=headers).text
 
     def parse(self, html: str) -> Iterable[Listing]:
         soup = BeautifulSoup(html, "lxml")
