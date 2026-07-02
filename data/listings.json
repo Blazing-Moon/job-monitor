@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-07-01T13:02:42.669279+00:00",
+  "last_updated": "2026-07-02T12:44:01.366783+00:00",
   "first_run_completed": true,
   "listings": [
     {
@@ -23,7 +23,7 @@
       "department": "Traffic Engineering Division",
       "location": "Madison, WI",
       "first_seen": "2026-06-12T13:17:18.050717+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "madison_city:5364830",
@@ -67,7 +67,7 @@
       "department": "Madison Public Library",
       "location": "Madison, WI",
       "first_seen": "2026-07-01T13:02:42.669279+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "madison_city:5391245",
@@ -78,7 +78,7 @@
       "department": "Madison Public Library",
       "location": "Madison, WI",
       "first_seen": "2026-06-30T12:47:15.278181+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "madison_city:5377382",
@@ -155,7 +155,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-16T13:55:19.718437+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:admin-assistant-gi-hepatology-madison-wisconsin-united-states",
@@ -177,7 +177,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-20T12:43:01.659652+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:fc127884-faad-4b10-ba55-66a93f983170",
@@ -188,7 +188,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-01T13:02:42.669279+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:ai-innovation-engineer-madison-wisconsin-united-states",
@@ -199,7 +199,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-27T12:33:35.685701+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:assistant-coach-track-and-field-cross-country-madison-wisconsin-united-states",
@@ -221,7 +221,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-30T12:47:15.278181+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:associate-director-for-center-for-southeast-asian-studies-madison-wisconsin-united-states",
@@ -232,7 +232,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-01T13:02:42.669279+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:asst-men-s-rowing-coach-madison-wisconsin-united-states",
@@ -243,7 +243,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-19T13:17:50.133581+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:bi-developer-iii-madison-wisconsin-united-states",
@@ -265,7 +265,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-19T13:17:50.133581+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:business-analyst-project-position-madison-wisconsin-united-states",
@@ -276,7 +276,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-19T13:17:50.133581+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:communications-marketing-mgr-anesthesiology-madison-wisconsin-united-states",
@@ -287,7 +287,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-24T12:51:42.362327+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:coordinator-of-digital-media-madison-wisconsin-united-states",
@@ -309,7 +309,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-01T13:02:42.669279+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:cybersecurity-manager-madison-wisconsin-united-states",
@@ -342,7 +342,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-24T12:51:42.362327+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:digital-accessibility-technology-lead-madison-wisconsin-united-states",
@@ -386,7 +386,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-20T12:43:01.659652+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:network-operations-center-technician-madison-wisconsin-united-states",
@@ -408,7 +408,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-20T12:43:01.659652+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:project-manager-project-position-madison-wisconsin-united-states",
@@ -422,17 +422,6 @@
       "last_seen": "2026-06-28T12:34:32.174615+00:00"
     },
     {
-      "id": "uw_madison:project-manager-sealc-phase-ii-madison-wisconsin-united-states",
-      "source": "uw_madison",
-      "source_id": "project-manager-sealc-phase-ii-madison-wisconsin-united-states",
-      "title": "Project Manager-SEALC Phase II",
-      "url": "https://jobs.wisc.edu/jobs/project-manager-sealc-phase-ii-madison-wisconsin-united-states",
-      "department": "",
-      "location": "",
-      "first_seen": "2026-06-04T07:48:35.110610+00:00",
-      "last_seen": "2026-06-17T13:22:59.109676+00:00"
-    },
-    {
       "id": "uw_madison:public-media-relations-mgr-madison-wisconsin-united-states",
       "source": "uw_madison",
       "source_id": "public-media-relations-mgr-madison-wisconsin-united-states",
@@ -442,6 +431,17 @@
       "location": "",
       "first_seen": "2026-06-13T12:42:55.623745+00:00",
       "last_seen": "2026-06-26T12:50:09.471912+00:00"
+    },
+    {
+      "id": "uw_madison:rural-health-program-assistant-madison-wisconsin-united-states",
+      "source": "uw_madison",
+      "source_id": "rural-health-program-assistant-madison-wisconsin-united-states",
+      "title": "Rural Health Program Assistant",
+      "url": "https://jobs.wisc.edu/jobs/rural-health-program-assistant-madison-wisconsin-united-states",
+      "department": "",
+      "location": "",
+      "first_seen": "2026-07-02T12:44:01.366783+00:00",
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:technical-integration-engineer-ii-madison-wisconsin-united-states",
@@ -485,7 +485,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-24T12:51:42.362327+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:e0bfd47f-94a1-4eca-91a9-80e32377c3be",
@@ -496,7 +496,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-25T12:53:12.235865+00:00",
-      "last_seen": "2026-07-01T13:02:42.669279+00:00"
+      "last_seen": "2026-07-02T12:44:01.366783+00:00"
     },
     {
       "id": "uw_madison:wisconsin-union-sponsorship-activation-coordinator-madison-wisconsin-united-states",
