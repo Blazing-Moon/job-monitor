@@ -18,7 +18,15 @@ BROWSER_UA = (
 
 # Retry policy for transient network failures (connect/read timeouts,
 # connection errors, 5xx). Sleep intervals between attempts.
-RETRY_BACKOFF_SECONDS: Sequence[int] = (5, 15)
+#
+# Minutes rather than seconds because the failures we've observed
+# (wisc.jobs ConnectTimeout after 30s) don't look like sub-second network
+# blips — a TCP handshake that doesn't complete in 30s is more likely a
+# WAF block or brief scheduled outage, and those persist for minutes.
+# Public-repo Actions minutes are unlimited, and the workflow has a
+# concurrency group that prevents overlapping runs, so a worst-case
+# ~20 min wall clock on a fully-failing source is fine.
+RETRY_BACKOFF_SECONDS: Sequence[int] = (5 * 60, 15 * 60)
 
 
 @dataclass
@@ -107,10 +115,11 @@ class Scraper:
                     raise
             if i < attempts - 1:
                 delay = RETRY_BACKOFF_SECONDS[i]
+                pretty = f"{delay // 60}m" if delay >= 60 else f"{delay}s"
                 log.warning(
-                    "%s: attempt %d/%d failed (%s: %s); retrying in %ds",
+                    "%s: attempt %d/%d failed (%s: %s); retrying in %s",
                     self.name, i + 1, attempts,
-                    type(last_exc).__name__, last_exc, delay,
+                    type(last_exc).__name__, last_exc, pretty,
                 )
                 time.sleep(delay)
         assert last_exc is not None
