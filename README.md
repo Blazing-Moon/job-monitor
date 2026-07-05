@@ -21,10 +21,23 @@ everything that was in it rolls into "still open from prior weeks."
 
 ## How fresh is it
 
-The scraper runs once a day in the early morning US Central time
-(give or take an hour — GitHub's scheduled runs aren't precise). The
-"Last updated" timestamp at the top of the page tells you exactly when
-the most recent scrape finished.
+The scraper runs on a two-attempt schedule each day, both in US
+Central time:
+
+- **Primary run, ~7 AM** — the daily refresh you'd expect.
+- **Safety-net run, ~11 AM** — only actually scrapes if the primary
+  run didn't produce fresh data. If the primary already succeeded,
+  the safety-net exits immediately and the page is left alone. This
+  catches days where one of the source sites (usually wisc.jobs) was
+  briefly unreachable at 7 AM.
+
+Both runs may slip by up to an hour — GitHub's scheduled runs
+aren't precise. The "Last updated" timestamp at the top of the page
+tells you exactly when the most recent successful scrape finished.
+
+On rare days where a source is unreachable during both windows, the
+page still shows the previous day's data for that source, plus an
+"errors this run" banner naming what failed.
 
 ## Sources
 
@@ -41,8 +54,12 @@ the most recent scrape finished.
 
 ### How it works
 
-1. `.github/workflows/scrape.yml` runs at 12:00 UTC daily (06:00 CST /
-   07:00 CDT) and on manual dispatch.
+1. `.github/workflows/scrape.yml` runs twice daily and on manual
+   dispatch:
+   - **Primary** at 12:00 UTC (06:00 CST / 07:00 CDT).
+   - **Safety-net** at 16:00 UTC (10:00 CST / 11:00 CDT), which
+     exits immediately if every source in state has a `last_seen`
+     within the last 6 hours — i.e., the primary already succeeded.
 2. `update.py` fetches each source, parses listings, and merges them
    into `data/listings.json`. Each listing has `first_seen` and
    `last_seen` UTC timestamps.
