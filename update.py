@@ -4,6 +4,7 @@ from __future__ import annotations
 import logging
 import sys
 from collections import Counter
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from render import write_page
@@ -11,6 +12,22 @@ from scrapers import ALL_SCRAPERS
 from state import load_state, merge, save_state, utcnow
 
 DEBUG_DIR = Path("debug/snapshots")
+
+# If every source already has data more recent than this window in state,
+# don't scrape again — the primary run today already succeeded and the
+# safety-net run has nothing to do. Sized to cover the ~4-hour primary→
+# safety-net gap plus GitHub cron slip (up to ~60 min).
+FRESHNESS_HOURS = 6
+
+
+def _latest_last_seen(state: dict, source: str) -> datetime | None:
+    """Most recent last_seen across state's listings for `source`, or None."""
+    return max(
+        (datetime.fromisoformat(L["last_seen"])
+         for L in state.get("listings", [])
+         if L["source"] == source),
+        default=None,
+    )
 
 
 def main() -> int:
@@ -20,6 +37,21 @@ def main() -> int:
     )
     now = utcnow()
     state = load_state()
+
+    # If every source has recent-enough data, exit without touching
+    # anything. No scrape, no state churn, no commit, no email.
+    freshness_cutoff = now - timedelta(hours=FRESHNESS_HOURS)
+    all_fresh = all(
+        (last := _latest_last_seen(state, s.name)) is not None
+        and last >= freshness_cutoff
+        for s in ALL_SCRAPERS
+    )
+    if all_fresh:
+        print(
+            f"All {len(ALL_SCRAPERS)} sources have data < {FRESHNESS_HOURS}h old; "
+            f"exiting without scraping."
+        )
+        return 0
 
     # Pre-scrape counts so we can detect a source that silently went to 0.
     prior_counts: Counter[str] = Counter()
