@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-07-05T16:55:55.972741+00:00",
+  "last_updated": "2026-07-06T15:34:20.261627+00:00",
   "first_run_completed": true,
   "listings": [
     {
@@ -12,7 +12,7 @@
       "department": "Traffic Engineering Division",
       "location": "Madison, WI",
       "first_seen": "2026-06-12T13:17:18.050717+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "madison_city:5358448",
@@ -45,7 +45,7 @@
       "department": "Madison Public Library",
       "location": "Madison, WI",
       "first_seen": "2026-07-01T13:02:42.669279+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "madison_city:5397531",
@@ -56,7 +56,7 @@
       "department": "Madison Public Library",
       "location": "Madison, WI",
       "first_seen": "2026-07-03T14:06:17.674392+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "madison_city:5391245",
@@ -67,7 +67,7 @@
       "department": "Madison Public Library",
       "location": "Madison, WI",
       "first_seen": "2026-06-30T12:47:15.278181+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "madison_city:5377382",
@@ -103,17 +103,6 @@
       "last_seen": "2026-06-25T12:53:12.235865+00:00"
     },
     {
-      "id": "madison_city:5375754",
-      "source": "madison_city",
-      "source_id": "5375754",
-      "title": "Parks Maintenance Worker",
-      "url": "https://www.governmentjobs.com/careers/madisonwi/jobs/5375754/parks-maintenance-worker",
-      "department": "Parks Division",
-      "location": "Madison, WI",
-      "first_seen": "2026-06-16T13:55:19.718437+00:00",
-      "last_seen": "2026-06-22T13:58:35.983458+00:00"
-    },
-    {
       "id": "madison_city:5371175",
       "source": "madison_city",
       "source_id": "5371175",
@@ -133,7 +122,7 @@
       "department": "Water Utility",
       "location": "110 S. Paterson St. Madison, WI",
       "first_seen": "2026-07-03T14:06:17.674392+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:e1cb94fc-1da0-4964-9e1e-5ad8b6b31545",
@@ -177,7 +166,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-04T13:27:20.119900+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:6d0a14d6-6005-412e-9ddf-5855f9fe0400",
@@ -199,7 +188,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-01T13:02:42.669279+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:ai-innovation-engineer-madison-wisconsin-united-states",
@@ -210,7 +199,18 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-27T12:33:35.685701+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
+    },
+    {
+      "id": "uw_madison:animal-services-administrative-assistant-madison-wisconsin-united-states",
+      "source": "uw_madison",
+      "source_id": "animal-services-administrative-assistant-madison-wisconsin-united-states",
+      "title": "Animal Services Administrative Assistant",
+      "url": "https://jobs.wisc.edu/jobs/animal-services-administrative-assistant-madison-wisconsin-united-states",
+      "department": "",
+      "location": "",
+      "first_seen": "2026-07-06T15:34:20.261627+00:00",
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:assistant-coach-track-and-field-cross-country-madison-wisconsin-united-states",
@@ -232,7 +232,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-30T12:47:15.278181+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:associate-director-for-center-for-southeast-asian-studies-madison-wisconsin-united-states",
@@ -243,7 +243,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-01T13:02:42.669279+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:associate-director-of-state-relations-for-health-sciences-madison-wisconsin-united-states",
@@ -254,7 +254,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-03T14:06:17.674392+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:asst-men-s-rowing-coach-madison-wisconsin-united-states",
@@ -309,7 +309,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-04T13:27:20.119900+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:communications-marketing-mgr-anesthesiology-madison-wisconsin-united-states",
@@ -320,7 +320,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-24T12:51:42.362327+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:coordinator-of-digital-media-madison-wisconsin-united-states",
@@ -342,7 +342,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-01T13:02:42.669279+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:cybersecurity-manager-madison-wisconsin-united-states",
@@ -375,7 +375,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-24T12:51:42.362327+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:digital-accessibility-technology-lead-madison-wisconsin-united-states",
@@ -408,7 +408,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-03T14:06:17.674392+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:lead-kubernetes-engineer-madison-wisconsin-united-states",
@@ -441,7 +441,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-20T12:43:01.659652+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:production-coordinator-madison-wisconsin-united-states",
@@ -452,7 +452,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-03T14:06:17.674392+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:project-manager-project-position-madison-wisconsin-united-states",
@@ -485,7 +485,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-02T12:44:01.366783+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:technical-integration-engineer-ii-madison-wisconsin-united-states",
@@ -529,7 +529,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-24T12:51:42.362327+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:e0bfd47f-94a1-4eca-91a9-80e32377c3be",
@@ -540,7 +540,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-06-25T12:53:12.235865+00:00",
-      "last_seen": "2026-07-05T16:55:55.972741+00:00"
+      "last_seen": "2026-07-06T15:34:20.261627+00:00"
     },
     {
       "id": "uw_madison:wisconsin-union-sponsorship-activation-coordinator-madison-wisconsin-united-states",
