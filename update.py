@@ -59,7 +59,8 @@ def main() -> int:
         prior_counts[L["source"]] += 1
 
     all_listings = []
-    scrape_errors: dict[str, str] = {}
+    # Value is (iso timestamp when the error was recorded, error message).
+    scrape_errors: dict[str, tuple[str, str]] = {}
     sources_ok: set[str] = set()
     per_source_count: Counter[str] = Counter()
 
@@ -70,7 +71,7 @@ def main() -> int:
             sources_ok.add(scraper.name)
             per_source_count[scraper.name] = len(result.listings)
         else:
-            scrape_errors[scraper.name] = result.error
+            scrape_errors[scraper.name] = (utcnow().isoformat(), result.error)
 
     # A successful scrape that returns 0 from a source that previously
     # had listings is more likely a parser regression than the source
@@ -78,8 +79,9 @@ def main() -> int:
     for src in list(sources_ok):
         if per_source_count[src] == 0 and prior_counts.get(src, 0) > 0:
             scrape_errors[src] = (
+                utcnow().isoformat(),
                 f"scrape returned 0 listings but state previously held "
-                f"{prior_counts[src]} from this source; likely parser broke"
+                f"{prior_counts[src]} from this source; likely parser broke",
             )
 
     new_state = merge(state, all_listings, sources_ok, now)
@@ -95,8 +97,8 @@ def main() -> int:
         print(f"  {src}: {n}")
     if scrape_errors:
         print("Errors:")
-        for src, err in scrape_errors.items():
-            print(f"  {src}: {err}")
+        for src, (at, msg) in scrape_errors.items():
+            print(f"  {src} at {at}: {msg}")
         # Surface scrape failures as a workflow failure so GitHub emails the owner.
         return 1
     return 0
