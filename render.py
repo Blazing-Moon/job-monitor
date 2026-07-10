@@ -24,7 +24,7 @@ def last_monday_central(now_utc: datetime) -> datetime:
     return monday_central.astimezone(timezone.utc)
 
 
-def render(state: dict, scrape_errors: dict[str, str]) -> str:
+def render(state: dict, scrape_errors: dict[str, tuple[str, str]]) -> str:
     now_utc = datetime.now(timezone.utc)
     last_updated_iso = state.get("last_updated")
     if last_updated_iso:
@@ -76,9 +76,14 @@ def render(state: dict, scrape_errors: dict[str, str]) -> str:
 
     if scrape_errors:
         parts.append('<div class="errors"><strong>Scrape errors this run:</strong><ul>')
-        for src, err in scrape_errors.items():
+        for src, (at_iso, err) in scrape_errors.items():
             label = SOURCE_LABELS.get(src, src)
-            parts.append(f"<li>{html.escape(label)}: {html.escape(err)}</li>")
+            at_central = datetime.fromisoformat(at_iso).astimezone(CENTRAL)
+            when = f"{at_central:%b %-d, %-I:%M %p %Z}"
+            parts.append(
+                f"<li>{html.escape(when)} &mdash; "
+                f"{html.escape(label)}: {html.escape(err)}</li>"
+            )
         parts.append("</ul></div>")
 
     parts.append(_section("New this week", new_this_week, total_new, empty="No new listings yet this week."))
@@ -150,6 +155,6 @@ _HEAD = """<!doctype html>
 </head>"""
 
 
-def write_page(state: dict, scrape_errors: dict[str, str], path: Path = OUTPUT) -> None:
+def write_page(state: dict, scrape_errors: dict[str, tuple[str, str]], path: Path = OUTPUT) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(render(state, scrape_errors), encoding="utf-8")
