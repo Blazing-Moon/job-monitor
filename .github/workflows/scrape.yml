@@ -2,16 +2,18 @@ name: scrape
 
 on:
   schedule:
-    # Primary run: 12:00 UTC daily = 06:00 CST / 07:00 CDT. Targets a
-    # finish time before Noah's 8 AM Central reading window, while
-    # staying after state-IT overnight maintenance windows.
-    - cron: '0 12 * * *'
-    # Safety-net run: 16:00 UTC daily = 10:00 CST / 11:00 CDT. If a
-    # source (typically wisc.jobs) was down for the primary run, the
-    # 4-hour gap gives it time to recover. On days where the primary
-    # succeeded, this run commits nothing and sends no email.
+    # Primary run: 06:00 UTC daily = midnight CST / 01:00 CDT.
+    # Deliberately overnight to sidestep what looks like business-hours
+    # IP throttling of GitHub Actions runners by the wisc.jobs WAF —
+    # the site loads fine from residential IPs during the same window
+    # where our runs get ConnectTimeouts.
+    - cron: '0 6 * * *'
+    # Safety-net run: 08:00 UTC daily = 02:00 CST / 03:00 CDT. Runs 2h
+    # after the primary; skips immediately (via the freshness gate in
+    # update.py) if the primary already succeeded. Both windows are
+    # squarely off-peak in Central time under either DST regime.
     # GitHub cron is best-effort; actual runs may slip 15-60 min.
-    - cron: '0 16 * * *'
+    - cron: '0 8 * * *'
   workflow_dispatch: {}
 
 permissions:

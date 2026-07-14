@@ -24,12 +24,12 @@ everything that was in it rolls into "still open from prior weeks."
 The scraper runs on a two-attempt schedule each day, both in US
 Central time:
 
-- **Primary run, ~7 AM** — the daily refresh you'd expect.
-- **Safety-net run, ~11 AM** — only actually scrapes if the primary
+- **Primary run, ~midnight–1 AM** — the daily refresh.
+- **Safety-net run, ~2–3 AM** — only actually scrapes if the primary
   run didn't produce fresh data. If the primary already succeeded,
   the safety-net exits immediately and the page is left alone. This
-  catches days where one of the source sites (usually wisc.jobs) was
-  briefly unreachable at 7 AM.
+  catches nights where one of the source sites (usually wisc.jobs)
+  was unreachable during the primary window.
 
 Both runs may slip by up to an hour — GitHub's scheduled runs
 aren't precise. The "Last updated" timestamp at the top of the page
@@ -56,8 +56,8 @@ page still shows the previous day's data for that source, plus an
 
 1. `.github/workflows/scrape.yml` runs twice daily and on manual
    dispatch:
-   - **Primary** at 12:00 UTC (06:00 CST / 07:00 CDT).
-   - **Safety-net** at 16:00 UTC (10:00 CST / 11:00 CDT), which
+   - **Primary** at 06:00 UTC (midnight CST / 01:00 CDT).
+   - **Safety-net** at 08:00 UTC (02:00 CST / 03:00 CDT), which
      exits immediately if every source in state has a `last_seen`
      within the last 6 hours — i.e., the primary already succeeded.
 2. `update.py` fetches each source, parses listings, and merges them
