@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-07-19T08:11:01.150204+00:00",
+  "last_updated": "2026-07-19T09:48:24.573176+00:00",
   "first_run_completed": true,
   "listings": [
     {
@@ -12,7 +12,7 @@
       "department": "Streets & Urban Forestry",
       "location": "Madison, WI",
       "first_seen": "2026-07-11T13:20:08.348997+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "madison_city:5356368",
@@ -56,7 +56,7 @@
       "department": "Library",
       "location": "Madison, WI",
       "first_seen": "2026-06-30T12:47:15.278181+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "madison_city:5407955",
@@ -67,7 +67,7 @@
       "department": "Community Development",
       "location": "Madison, WI",
       "first_seen": "2026-07-16T08:07:25.903686+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "madison_city:5388261",
@@ -78,7 +78,7 @@
       "department": "Parking",
       "location": "Madison, WI",
       "first_seen": "2026-07-09T15:11:10.516089+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "madison_city:5408607",
@@ -89,7 +89,7 @@
       "department": "Police",
       "location": "Madison, WI",
       "first_seen": "2026-07-17T08:04:23.117020+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "madison_city:5381424",
@@ -100,7 +100,7 @@
       "department": "Engineering",
       "location": "Madison, WI",
       "first_seen": "2026-07-09T15:11:10.516089+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "madison_city:5405897",
@@ -111,7 +111,7 @@
       "department": "Metro Transit",
       "location": "Madison, WI",
       "first_seen": "2026-07-13T17:48:26.869994+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "madison_city:5392196",
@@ -144,7 +144,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-04T13:27:20.119900+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:6d0a14d6-6005-412e-9ddf-5855f9fe0400",
@@ -177,7 +177,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-16T08:07:25.903686+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:ai-innovation-engineer-madison-wisconsin-united-states",
@@ -199,7 +199,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-06T15:34:20.261627+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:assistant-director-of-game-day-and-fan-experience-madison-wisconsin-united-states",
@@ -221,7 +221,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-01T13:02:42.669279+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:associate-director-of-state-relations-for-health-sciences-madison-wisconsin-united-states",
@@ -232,7 +232,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-03T14:06:17.674392+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:clinical-operations-administrative-manager-madison-wisconsin-united-states",
@@ -243,7 +243,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-17T08:04:23.117020+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:cloud-infrastructure-architect-madison-wisconsin-united-states",
@@ -254,7 +254,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-04T13:27:20.119900+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:communications-marketing-mgr-anesthesiology-madison-wisconsin-united-states",
@@ -287,7 +287,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-09T15:11:10.516089+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:2e4ce3a5-5625-4058-80d3-b4f77eae1266",
@@ -298,7 +298,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-07T14:35:49.356285+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:digital-accessibility-architect-madison-wisconsin-united-states",
@@ -320,7 +320,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-14T17:03:10.591491+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:erp-developer-peoplesoft-campus-solutions-developer-madison-wisconsin-united-states",
@@ -331,7 +331,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-14T17:03:10.591491+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:582a5cc9-ff03-4e10-8ef1-fa693de11977",
@@ -342,7 +342,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-03T14:06:17.674392+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:a28e0daa-7e3e-4bbb-bab3-e4d702a9f19b",
@@ -353,7 +353,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-16T08:07:25.903686+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:it-business-analyst-ii-madison-wisconsin-united-states",
@@ -364,7 +364,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-15T08:02:50.023320+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:lead-kubernetes-engineer-madison-wisconsin-united-states",
@@ -386,7 +386,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-07T14:35:49.356285+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:marketing-content-creator-producer-madison-wisconsin-united-states",
@@ -397,7 +397,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-07T14:35:49.356285+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:operations-coordinator-madison-wisconsin-united-states",
@@ -408,7 +408,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-06T18:04:52.397305+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:product-manager-madison-wisconsin-united-states",
@@ -430,7 +430,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-03T14:06:17.674392+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:07c19958-8ad2-462b-96d1-a79ff98e9c80",
@@ -441,7 +441,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-15T08:02:50.023320+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:project-manager-adcee-admin-and-operations-madison-wisconsin-united-states",
@@ -452,7 +452,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-11T13:20:08.348997+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:regulated-research-devops-engineer-madison-wisconsin-united-states",
@@ -463,7 +463,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-17T08:04:23.117020+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:rural-health-program-assistant-madison-wisconsin-united-states",
@@ -485,7 +485,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-09T17:47:45.828852+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:technical-support-consultant-madison-wisconsin-united-states",
@@ -496,7 +496,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-18T07:43:35.591547+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "uw_madison:uw-connects-marketing-specialist-madison-wisconsin-united-states",
@@ -529,7 +529,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-16T08:07:25.903686+00:00",
-      "last_seen": "2026-07-19T08:11:01.150204+00:00"
+      "last_seen": "2026-07-19T09:48:24.573176+00:00"
     },
     {
       "id": "wisc_state:21167",
