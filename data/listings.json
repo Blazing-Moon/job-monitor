@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-04T10:32:55.279721+00:00",
+  "last_updated": "2026-08-05T08:30:17.580713+00:00",
   "first_run_completed": true,
   "listings": [
     {
@@ -89,7 +89,7 @@
       "department": "Streets & Urban Forestry",
       "location": "Madison, WI",
       "first_seen": "2026-08-04T08:31:22.608546+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "madison_city:5415258",
@@ -100,7 +100,7 @@
       "department": "Finance",
       "location": "Madison, WI",
       "first_seen": "2026-08-04T08:31:22.608546+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "madison_city:5381424",
@@ -112,6 +112,17 @@
       "location": "Madison, WI",
       "first_seen": "2026-07-09T15:11:10.516089+00:00",
       "last_seen": "2026-07-23T08:24:25.417152+00:00"
+    },
+    {
+      "id": "madison_city:5434291",
+      "source": "madison_city",
+      "source_id": "5434291",
+      "title": "Street Machine Operator 1 (Trainee Eligible)*",
+      "url": "https://www.governmentjobs.com/careers/madisonwi/jobs/5434291/street-machine-operator-1-trainee-eligible",
+      "department": "Streets & Urban Forestry",
+      "location": "Madison, WI",
+      "first_seen": "2026-08-05T08:30:17.580713+00:00",
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "madison_city:5415216",
@@ -133,7 +144,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-01T08:14:36.408908+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:d94215b9-0a68-43c1-8841-756004885f44",
@@ -155,7 +166,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-29T08:34:47.687642+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:adrc-operations-coordinator-madison-wisconsin-united-states",
@@ -177,7 +188,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-24T08:21:51.328597+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:associate-director-for-center-for-southeast-asian-studies-madison-wisconsin-united-states",
@@ -199,7 +210,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-31T08:44:36.911577+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:26ec00a6-c0df-4f06-af22-71047ee09ff5",
@@ -210,7 +221,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-04T08:31:22.608546+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:associate-director-of-state-relations-for-health-sciences-madison-wisconsin-united-states",
@@ -243,7 +254,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-04T08:31:22.608546+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:clinical-operations-administrative-manager-madison-wisconsin-united-states",
@@ -276,7 +287,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-22T08:22:57.920617+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:data-entry-operator-madison-wisconsin-united-states",
@@ -287,7 +298,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-30T08:20:09.557729+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:data-solutions-architect-madison-wisconsin-united-states",
@@ -331,7 +342,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-01T08:14:36.408908+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:executive-assistant-to-the-dean-of-students-madison-wisconsin-united-states",
@@ -342,7 +353,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-29T08:34:47.687642+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:executive-general-manager-madison-wisconsin-united-states",
@@ -353,7 +364,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-22T08:22:57.920617+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:geographic-information-system-gis-specialist-madison-wisconsin-united-states",
@@ -364,7 +375,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-01T08:14:36.408908+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:a28e0daa-7e3e-4bbb-bab3-e4d702a9f19b",
@@ -408,7 +419,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-30T08:20:09.557729+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:pcs-integration-engineer-microsoft-365-regulated-research-tenant-madison-wisconsin-united-states",
@@ -419,7 +430,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-04T08:31:22.608546+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:program-project-management-associate-director-madison-wisconsin-united-states",
@@ -430,7 +441,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-30T08:20:09.557729+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:07c19958-8ad2-462b-96d1-a79ff98e9c80",
@@ -485,7 +496,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-29T08:34:47.687642+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:social-media-manager-madison-wisconsin-united-states",
@@ -507,7 +518,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-29T08:34:47.687642+00:00",
-      "last_seen": "2026-08-04T10:32:55.279721+00:00"
+      "last_seen": "2026-08-05T08:30:17.580713+00:00"
     },
     {
       "id": "uw_madison:svm-infrastructure-engineer-madison-wisconsin-united-states",
