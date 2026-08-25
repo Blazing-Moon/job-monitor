@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-25T06:39:51.730785+00:00",
+  "last_updated": "2026-08-25T08:36:13.963918+00:00",
   "first_run_completed": true,
   "listings": [
     {
@@ -12,7 +12,7 @@
       "department": "Fleet Service",
       "location": "Madison, WI",
       "first_seen": "2026-08-14T07:18:49.818835+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "madison_city:5456823",
@@ -23,7 +23,7 @@
       "department": "Building Inspection",
       "location": "Madison, WI",
       "first_seen": "2026-08-25T06:39:51.730785+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "madison_city:5451778",
@@ -34,7 +34,7 @@
       "department": "Water Utility",
       "location": "110 S. Paterson St. Madison, WI",
       "first_seen": "2026-08-25T06:39:51.730785+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "madison_city:5415258",
@@ -45,7 +45,7 @@
       "department": "Finance",
       "location": "Madison, WI",
       "first_seen": "2026-08-04T08:31:22.608546+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "madison_city:5434291",
@@ -67,7 +67,7 @@
       "department": "Metro Transit",
       "location": "Madison, WI",
       "first_seen": "2026-08-14T07:18:49.818835+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "uw_madison:administrative-affairs-manager-madison-wisconsin-united-states",
@@ -89,7 +89,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-22T06:33:14.898538+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "uw_madison:administrative-assistant-research-core-madison-wisconsin-united-states",
@@ -100,18 +100,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-22T06:33:14.898538+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
-    },
-    {
-      "id": "uw_madison:af2f2682-9575-421b-b189-247cf8a44ce3",
-      "source": "uw_madison",
-      "source_id": "af2f2682-9575-421b-b189-247cf8a44ce3",
-      "title": "Administrative Specialist",
-      "url": "https://jobs.wisc.edu/jobs/administrative-specialist-madison-wisconsin-united-states-af2f2682-9575-421b-b189-247cf8a44ce3",
-      "department": "",
-      "location": "",
-      "first_seen": "2026-07-29T08:34:47.687642+00:00",
-      "last_seen": "2026-08-11T07:00:36.107091+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "uw_madison:4bfadb96-d116-48fd-8b7d-a11110c7c55f",
@@ -133,7 +122,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-12T07:18:48.913353+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "uw_madison:associate-director-of-animation-interactive-environment-design-madison-wisconsin-united-states",
@@ -166,7 +155,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-14T07:18:49.818835+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "uw_madison:chief-administrative-officer-wai-madison-wisconsin-united-states",
@@ -188,7 +177,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-18T06:36:29.005465+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "uw_madison:clinical-operations-coordinator-madison-wisconsin-united-states",
@@ -210,7 +199,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-07T07:09:45.361827+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "uw_madison:data-entry-operator-madison-wisconsin-united-states",
@@ -232,7 +221,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-20T06:39:10.656090+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "uw_madison:event-photographer-digitech-madison-wisconsin-united-states",
@@ -243,7 +232,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-18T06:36:29.005465+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "uw_madison:0487a513-a295-4dad-92a5-0433a37e48b0",
@@ -309,7 +298,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-12T07:18:48.913353+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "uw_madison:d054e890-7e66-4968-898b-703e842b9caf",
@@ -353,7 +342,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-20T06:39:10.656090+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "uw_madison:program-project-management-associate-director-madison-wisconsin-united-states",
@@ -365,17 +354,6 @@
       "location": "",
       "first_seen": "2026-07-30T08:20:09.557729+00:00",
       "last_seen": "2026-08-12T07:18:48.913353+00:00"
-    },
-    {
-      "id": "uw_madison:simulation-specialist-madison-wisconsin-united-states",
-      "source": "uw_madison",
-      "source_id": "simulation-specialist-madison-wisconsin-united-states",
-      "title": "Simulation Specialist",
-      "url": "https://jobs.wisc.edu/jobs/simulation-specialist-madison-wisconsin-united-states",
-      "department": "",
-      "location": "",
-      "first_seen": "2026-07-29T08:34:47.687642+00:00",
-      "last_seen": "2026-08-11T07:00:36.107091+00:00"
     },
     {
       "id": "uw_madison:5957bd32-9ffb-47bd-b03b-e79e050e6231",
@@ -397,7 +375,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-20T06:39:10.656090+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "uw_madison:software-engineer-developer-iii-madison-wisconsin-united-states",
@@ -408,7 +386,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-07-29T08:34:47.687642+00:00",
-      "last_seen": "2026-08-25T06:39:51.730785+00:00"
+      "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
       "id": "uw_madison:thrive-administrative-assistant-madison-wisconsin-united-states",
