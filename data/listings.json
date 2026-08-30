@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-29T12:13:49.905908+00:00",
+  "last_updated": "2026-08-30T11:11:00.620610+00:00",
   "first_run_completed": true,
   "listings": [
     {
@@ -12,7 +12,7 @@
       "department": "Fleet Service",
       "location": "Madison, WI",
       "first_seen": "2026-08-14T07:18:49.818835+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "madison_city:5458785",
@@ -23,7 +23,7 @@
       "department": "CDA Housing Operations",
       "location": "Madison, WI",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "madison_city:5458671",
@@ -34,7 +34,7 @@
       "department": "Information Technology",
       "location": "Madison, WI",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "madison_city:5456823",
@@ -45,7 +45,7 @@
       "department": "Building Inspection",
       "location": "Madison, WI",
       "first_seen": "2026-08-25T06:39:51.730785+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "madison_city:5451778",
@@ -56,7 +56,7 @@
       "department": "Water Utility",
       "location": "110 S. Paterson St. Madison, WI",
       "first_seen": "2026-08-25T06:39:51.730785+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "madison_city:5415258",
@@ -67,7 +67,7 @@
       "department": "Finance",
       "location": "Madison, WI",
       "first_seen": "2026-08-04T08:31:22.608546+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "madison_city:5434291",
@@ -89,7 +89,7 @@
       "department": "Metro Transit",
       "location": "Madison, WI",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "madison_city:5341354",
@@ -111,18 +111,7 @@
       "department": "Water Utility",
       "location": "110 S. Paterson St. Madison, WI",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
-    },
-    {
-      "id": "uw_madison:administrative-affairs-manager-madison-wisconsin-united-states",
-      "source": "uw_madison",
-      "source_id": "administrative-affairs-manager-madison-wisconsin-united-states",
-      "title": "Administrative Affairs Manager",
-      "url": "https://jobs.wisc.edu/jobs/administrative-affairs-manager-madison-wisconsin-united-states",
-      "department": "",
-      "location": "",
-      "first_seen": "2026-08-01T08:14:36.408908+00:00",
-      "last_seen": "2026-08-16T06:33:20.375115+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:administrative-assistant-dept-of-otolaryngology-madison-wisconsin-united-states",
@@ -133,7 +122,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-22T06:33:14.898538+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:administrative-assistant-research-core-madison-wisconsin-united-states",
@@ -144,7 +133,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-22T06:33:14.898538+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:4bfadb96-d116-48fd-8b7d-a11110c7c55f",
@@ -169,17 +158,6 @@
       "last_seen": "2026-08-25T08:36:13.963918+00:00"
     },
     {
-      "id": "uw_madison:26ec00a6-c0df-4f06-af22-71047ee09ff5",
-      "source": "uw_madison",
-      "source_id": "26ec00a6-c0df-4f06-af22-71047ee09ff5",
-      "title": "Associate Director of Information Technology",
-      "url": "https://jobs.wisc.edu/jobs/associate-director-of-information-technology-madison-wisconsin-united-states-26ec00a6-c0df-4f06-af22-71047ee09ff5",
-      "department": "",
-      "location": "",
-      "first_seen": "2026-08-04T08:31:22.608546+00:00",
-      "last_seen": "2026-08-16T06:33:20.375115+00:00"
-    },
-    {
       "id": "uw_madison:building-coordinator-madison-wisconsin-united-states",
       "source": "uw_madison",
       "source_id": "building-coordinator-madison-wisconsin-united-states",
@@ -188,7 +166,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-14T07:18:49.818835+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:business-intelligence-bi-developer-madison-wisconsin-united-states",
@@ -199,7 +177,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:chief-administrative-officer-wai-madison-wisconsin-united-states",
@@ -221,7 +199,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-18T06:36:29.005465+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:clinical-operations-coordinator-madison-wisconsin-united-states",
@@ -243,7 +221,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-07T07:09:45.361827+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:cybersecurity-analyst-madison-wisconsin-united-states",
@@ -254,7 +232,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-29T12:13:49.905908+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:director-of-information-technology-madison-wisconsin-united-states",
@@ -265,7 +243,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-20T06:39:10.656090+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:event-photographer-digitech-madison-wisconsin-united-states",
@@ -276,18 +254,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-18T06:36:29.005465+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
-    },
-    {
-      "id": "uw_madison:0487a513-a295-4dad-92a5-0433a37e48b0",
-      "source": "uw_madison",
-      "source_id": "0487a513-a295-4dad-92a5-0433a37e48b0",
-      "title": "Executive Assistant",
-      "url": "https://jobs.wisc.edu/jobs/executive-assistant-madison-wisconsin-united-states-0487a513-a295-4dad-92a5-0433a37e48b0",
-      "department": "",
-      "location": "",
-      "first_seen": "2026-08-01T08:14:36.408908+00:00",
-      "last_seen": "2026-08-16T06:33:20.375115+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:executive-assistant-to-the-dean-of-students-madison-wisconsin-united-states",
@@ -309,7 +276,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:food-is-medicine-program-manager-madison-wisconsin-united-states",
@@ -323,17 +290,6 @@
       "last_seen": "2026-08-23T06:34:55.901317+00:00"
     },
     {
-      "id": "uw_madison:geographic-information-system-gis-specialist-madison-wisconsin-united-states",
-      "source": "uw_madison",
-      "source_id": "geographic-information-system-gis-specialist-madison-wisconsin-united-states",
-      "title": "Geographic Information System (GIS) Specialist",
-      "url": "https://jobs.wisc.edu/jobs/geographic-information-system-gis-specialist-madison-wisconsin-united-states",
-      "department": "",
-      "location": "",
-      "first_seen": "2026-08-01T08:14:36.408908+00:00",
-      "last_seen": "2026-08-16T06:33:20.375115+00:00"
-    },
-    {
       "id": "uw_madison:informatics-data-services-unit-head-madison-wisconsin-united-states",
       "source": "uw_madison",
       "source_id": "informatics-data-services-unit-head-madison-wisconsin-united-states",
@@ -342,7 +298,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-12T07:18:48.913353+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:onboarding-coordinator-madison-wisconsin-united-states",
@@ -375,7 +331,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-20T06:39:10.656090+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:5957bd32-9ffb-47bd-b03b-e79e050e6231",
@@ -397,7 +353,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-20T06:39:10.656090+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:software-engineer-developer-iii-madison-wisconsin-united-states",
@@ -430,7 +386,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-27T17:16:59.662021+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "uw_madison:urology-administrative-supervisor-madison-wisconsin-united-states",
@@ -474,7 +430,7 @@
       "department": "Legislative Council",
       "location": "Madison",
       "first_seen": "2026-08-11T07:00:36.107091+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21614",
@@ -485,18 +441,7 @@
       "department": "Corrections",
       "location": "Statewide",
       "first_seen": "2026-07-29T08:34:47.687642+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
-    },
-    {
-      "id": "wisc_state:21657",
-      "source": "wisc_state",
-      "source_id": "21657",
-      "title": "Affordable and Supportive Housing Bureau Director- Career Executive",
-      "url": "https://wj.wi.gov/psc/wisjobs/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&PostingSeq=1&JobOpeningId=21657",
-      "department": "Administration",
-      "location": "Madison",
-      "first_seen": "2026-08-01T09:54:00.568522+00:00",
-      "last_seen": "2026-08-16T06:33:20.375115+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21752",
@@ -507,7 +452,7 @@
       "department": "Ag, Trade & Consumer Protctn",
       "location": "Madison",
       "first_seen": "2026-08-12T07:18:48.913353+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:20654",
@@ -518,7 +463,7 @@
       "department": "Administration",
       "location": "Madison",
       "first_seen": "2026-05-19T18:48:39.095408+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:19265",
@@ -529,7 +474,7 @@
       "department": "Transportation",
       "location": "Wisconsin Rapids, Superior, Madison, La Crosse, Eau Claire",
       "first_seen": "2026-05-19T18:48:39.095408+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21142",
@@ -551,7 +496,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-07-25T08:01:42.194638+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21827",
@@ -562,7 +507,7 @@
       "department": "Transportation",
       "location": "Wisconsin Rapids, Waukesha, Superior, Rhinelander, Madison, La Crosse, Green Bay, Eau Claire",
       "first_seen": "2026-08-20T06:39:10.656090+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:19987",
@@ -573,7 +518,7 @@
       "department": "District Attorneys",
       "location": "Madison",
       "first_seen": "2026-05-19T18:48:39.095408+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21933",
@@ -584,7 +529,7 @@
       "department": "State Public Defender Board",
       "location": "Madison",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21524",
@@ -617,7 +562,7 @@
       "department": "Transportation",
       "location": "Wisconsin Rapids, Waukesha, Superior, Rhinelander, Madison, La Crosse, Green Bay, Eau Claire",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21765",
@@ -639,7 +584,7 @@
       "department": "Administration",
       "location": "Madison",
       "first_seen": "2026-08-22T06:33:14.898538+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21754",
@@ -672,7 +617,7 @@
       "department": "Transportation",
       "location": "Madison",
       "first_seen": "2026-07-24T08:21:51.328597+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21448",
@@ -683,7 +628,7 @@
       "department": "Transportation",
       "location": "Madison, La Crosse",
       "first_seen": "2026-07-08T14:09:20.619101+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21805",
@@ -705,7 +650,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-05-19T18:48:39.095408+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21910",
@@ -716,7 +661,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-08-27T17:16:59.662021+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21926",
@@ -727,7 +672,7 @@
       "department": "State Public Defender Board",
       "location": "Madison",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:20806",
@@ -738,7 +683,7 @@
       "department": "Employee Trust Funds",
       "location": "Madison",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21423",
@@ -749,7 +694,7 @@
       "department": "Transportation",
       "location": "Madison",
       "first_seen": "2026-07-06T18:04:52.397305+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:19962",
@@ -760,7 +705,7 @@
       "department": "Transportation",
       "location": "Madison, La Crosse",
       "first_seen": "2026-05-19T18:48:39.095408+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21390",
@@ -771,7 +716,7 @@
       "department": "Transportation",
       "location": "Madison, La Crosse",
       "first_seen": "2026-07-03T14:06:17.674392+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21723",
@@ -804,7 +749,7 @@
       "department": "Senate",
       "location": "Madison",
       "first_seen": "2026-08-19T06:37:48.132183+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21842",
@@ -815,7 +760,7 @@
       "department": "Administration",
       "location": "Madison",
       "first_seen": "2026-08-20T06:39:10.656090+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21538",
@@ -848,7 +793,7 @@
       "department": "Ag, Trade & Consumer Protctn",
       "location": "Madison",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21640",
@@ -881,7 +826,7 @@
       "department": "Corrections",
       "location": "Madison",
       "first_seen": "2026-07-18T09:19:43.235054+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21739",
@@ -903,7 +848,7 @@
       "department": "Safety & Professional Services",
       "location": "Madison",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:20438",
@@ -914,7 +859,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-08-27T17:16:59.662021+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21773",
@@ -936,7 +881,7 @@
       "department": "Historical Society",
       "location": "Madison, Eagle, Baraboo",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21885",
@@ -947,7 +892,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21838",
@@ -958,18 +903,7 @@
       "department": "Circuit Courts",
       "location": "Madison",
       "first_seen": "2026-08-19T06:37:48.132183+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
-    },
-    {
-      "id": "wisc_state:21680",
-      "source": "wisc_state",
-      "source_id": "21680",
-      "title": "DMV Customer Service Representative - Madison Southwest",
-      "url": "https://wj.wi.gov/psc/wisjobs/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&PostingSeq=1&JobOpeningId=21680",
-      "department": "Transportation",
-      "location": "Madison",
-      "first_seen": "2026-08-04T10:32:55.279721+00:00",
-      "last_seen": "2026-08-16T06:33:20.375115+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21698",
@@ -1013,7 +947,7 @@
       "department": "Natural Resources",
       "location": "Statewide",
       "first_seen": "2026-08-29T12:13:49.905908+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21922",
@@ -1024,7 +958,7 @@
       "department": "Educational Communications Bd",
       "location": "Madison",
       "first_seen": "2026-08-27T17:16:59.662021+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21746",
@@ -1035,7 +969,7 @@
       "department": "Military Affairs",
       "location": "Madison",
       "first_seen": "2026-08-13T09:07:19.708630+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:20099",
@@ -1046,7 +980,7 @@
       "department": "Military Affairs",
       "location": "Statewide",
       "first_seen": "2026-05-19T18:48:39.095408+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21499",
@@ -1068,18 +1002,7 @@
       "department": "Safety & Professional Services",
       "location": "Madison",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
-    },
-    {
-      "id": "wisc_state:21732",
-      "source": "wisc_state",
-      "source_id": "21732",
-      "title": "Financial Specialist - Senior",
-      "url": "https://wj.wi.gov/psc/wisjobs/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&PostingSeq=1&JobOpeningId=21732",
-      "department": "Ag, Trade & Consumer Protctn",
-      "location": "Madison",
-      "first_seen": "2026-08-08T06:44:35.888942+00:00",
-      "last_seen": "2026-08-16T06:33:20.375115+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21837",
@@ -1090,7 +1013,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-08-19T06:37:48.132183+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21760",
@@ -1112,7 +1035,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-08-19T06:37:48.132183+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21823",
@@ -1145,7 +1068,7 @@
       "department": "Health Services",
       "location": "Statewide",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21891",
@@ -1156,7 +1079,7 @@
       "department": "Administration",
       "location": "Madison",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21853",
@@ -1167,7 +1090,7 @@
       "department": "Workforce Development",
       "location": "Statewide",
       "first_seen": "2026-08-24T06:51:03.577964+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21831",
@@ -1178,7 +1101,7 @@
       "department": "Employee Trust Funds",
       "location": "Madison",
       "first_seen": "2026-08-20T06:39:10.656090+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21799",
@@ -1200,7 +1123,7 @@
       "department": "Transportation",
       "location": "Madison",
       "first_seen": "2026-07-24T08:21:51.328597+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21780",
@@ -1211,7 +1134,7 @@
       "department": "Revenue",
       "location": "Madison",
       "first_seen": "2026-08-21T08:34:24.082451+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21615",
@@ -1222,7 +1145,7 @@
       "department": "Workforce Development",
       "location": "Madison",
       "first_seen": "2026-08-19T06:37:48.132183+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21857",
@@ -1255,7 +1178,7 @@
       "department": "Historical Society",
       "location": "Madison",
       "first_seen": "2026-08-11T07:00:36.107091+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21804",
@@ -1332,7 +1255,7 @@
       "department": "Natural Resources",
       "location": "Madison",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21809",
@@ -1343,7 +1266,7 @@
       "department": "Historical Society",
       "location": "Madison",
       "first_seen": "2026-08-19T06:37:48.132183+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21868",
@@ -1354,7 +1277,7 @@
       "department": "Educational Communications Bd",
       "location": "Madison",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21870",
@@ -1376,7 +1299,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-05-19T18:48:39.095408+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21878",
@@ -1387,7 +1310,7 @@
       "department": "Bd on Aging & Long Term Care",
       "location": "Madison",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:19295",
@@ -1398,7 +1321,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-05-19T18:48:39.095408+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21693",
@@ -1409,7 +1332,7 @@
       "department": "Historical Society",
       "location": "Milwaukee, Madison",
       "first_seen": "2026-08-06T08:29:40.352286+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21353",
@@ -1420,7 +1343,7 @@
       "department": "Historical Society",
       "location": "Stevens Point, Madison",
       "first_seen": "2026-06-30T12:47:15.278181+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21770",
@@ -1453,7 +1376,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-08-27T17:16:59.662021+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21729",
@@ -1486,7 +1409,7 @@
       "department": "Justice",
       "location": "Madison",
       "first_seen": "2026-08-22T06:33:14.898538+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21689",
@@ -1497,18 +1420,7 @@
       "department": "Transportation",
       "location": "Madison",
       "first_seen": "2026-08-06T08:29:40.352286+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
-    },
-    {
-      "id": "wisc_state:21686",
-      "source": "wisc_state",
-      "source_id": "21686",
-      "title": "Police Sergeant \u2013 Division of Capitol Police",
-      "url": "https://wj.wi.gov/psc/wisjobs/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&PostingSeq=1&JobOpeningId=21686",
-      "department": "Administration",
-      "location": "Madison",
-      "first_seen": "2026-08-06T08:29:40.352286+00:00",
-      "last_seen": "2026-08-16T06:33:20.375115+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21691",
@@ -1530,18 +1442,7 @@
       "department": "Corrections",
       "location": "Statewide",
       "first_seen": "2026-05-19T18:48:39.095408+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
-    },
-    {
-      "id": "wisc_state:21460",
-      "source": "wisc_state",
-      "source_id": "21460",
-      "title": "Program & Policy Analyst - Advanced (2 Project Positions)",
-      "url": "https://wj.wi.gov/psc/wisjobs/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&PostingSeq=1&JobOpeningId=21460",
-      "department": "Workforce Development",
-      "location": "Madison",
-      "first_seen": "2026-08-06T08:29:40.352286+00:00",
-      "last_seen": "2026-08-16T06:33:20.375115+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21695",
@@ -1563,7 +1464,7 @@
       "department": "Ag, Trade & Consumer Protctn",
       "location": "Madison",
       "first_seen": "2026-08-22T06:33:14.898538+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21170",
@@ -1574,7 +1475,7 @@
       "department": "Revenue",
       "location": "Madison",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21759",
@@ -1596,7 +1497,7 @@
       "department": "Public Instruction",
       "location": "Statewide",
       "first_seen": "2026-07-30T08:20:09.557729+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21731",
@@ -1610,17 +1511,6 @@
       "last_seen": "2026-08-19T06:37:48.132183+00:00"
     },
     {
-      "id": "wisc_state:21674",
-      "source": "wisc_state",
-      "source_id": "21674",
-      "title": "Real Estate Supervisor",
-      "url": "https://wj.wi.gov/psc/wisjobs/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&PostingSeq=1&JobOpeningId=21674",
-      "department": "Transportation",
-      "location": "Madison",
-      "first_seen": "2026-08-06T08:29:40.352286+00:00",
-      "last_seen": "2026-08-16T06:33:20.375115+00:00"
-    },
-    {
       "id": "wisc_state:19645",
       "source": "wisc_state",
       "source_id": "19645",
@@ -1629,7 +1519,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-05-19T18:48:39.095408+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:20856",
@@ -1651,7 +1541,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21413",
@@ -1662,7 +1552,7 @@
       "department": "Corrections",
       "location": "Winnebago, Waupun, Union Grove, Sturtevant, Stanley, Redgranite, Racine, Prairie Du Chien, Portage, Plymouth, Oshkosh, Oregon, Oneida, New Richmond, New Lisbon, Milwaukee, Madison, Lake Tomahawk, Kenosha, Irma, Hawkins, Green Bay, Gordon, Fox Lake, Fond",
       "first_seen": "2026-07-05T13:40:48.897498+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21738",
@@ -1695,7 +1585,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-05-19T18:48:39.095408+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21883",
@@ -1706,7 +1596,7 @@
       "department": "Health Services",
       "location": "Statewide",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:20133",
@@ -1717,7 +1607,7 @@
       "department": "Public Instruction",
       "location": "Madison",
       "first_seen": "2026-05-19T18:48:39.095408+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21664",
@@ -1739,7 +1629,7 @@
       "department": "Corrections",
       "location": "Winnebago, Waupun, Union Grove, Sturtevant, Stanley, Redgranite, Racine, Prairie Du Chien, Portage, Plymouth, Oshkosh, Oregon, Oneida, New Lisbon, Milwaukee, Madison, Lake Tomahawk, Kenosha, Irma, Hawkins, Green Bay, Gordon, Fox Lake, Fond Du Lac, Deerfi",
       "first_seen": "2026-06-19T13:17:50.133581+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21717",
@@ -1750,7 +1640,7 @@
       "department": "Transportation",
       "location": "Madison",
       "first_seen": "2026-08-06T08:29:40.352286+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21736",
@@ -1772,7 +1662,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-08-27T17:16:59.662021+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21682",
@@ -1794,7 +1684,7 @@
       "department": "Corrections",
       "location": "Winnebago, Waupun, Union Grove, Sturtevant, Stanley, Redgranite, Racine, Prairie Du Chien, Portage, Plymouth, Oshkosh, Oregon, Oneida, New Richmond, New Lisbon, Milwaukee, Madison, Lake Tomahawk, Kenosha, Hawkins, Green Bay, Gordon, Fox Lake, Fond Du Lac",
       "first_seen": "2026-06-03T07:53:49.332743+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21897",
@@ -1805,7 +1695,7 @@
       "department": "Employee Trust Funds",
       "location": "Madison",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:20903",
@@ -1816,7 +1706,7 @@
       "department": "Transportation",
       "location": "Wisconsin Rapids, Waukesha, Superior, Rhinelander, Madison, La Crosse, Green Bay, Eau Claire",
       "first_seen": "2026-06-24T12:51:42.362327+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21520",
@@ -1838,7 +1728,7 @@
       "department": "Administration",
       "location": "Madison",
       "first_seen": "2026-08-29T12:13:49.905908+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21757",
@@ -1860,18 +1750,7 @@
       "department": "Revenue",
       "location": "Madison",
       "first_seen": "2026-08-19T06:37:48.132183+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
-    },
-    {
-      "id": "wisc_state:21743",
-      "source": "wisc_state",
-      "source_id": "21743",
-      "title": "TEACH e-Rate Support",
-      "url": "https://wj.wi.gov/psc/wisjobs/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&PostingSeq=1&JobOpeningId=21743",
-      "department": "Administration",
-      "location": "Madison",
-      "first_seen": "2026-08-08T06:44:35.888942+00:00",
-      "last_seen": "2026-08-16T06:33:20.375115+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21673",
@@ -1893,7 +1772,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-08-13T09:07:19.708630+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21330",
@@ -1926,7 +1805,7 @@
       "department": "Health Services",
       "location": "Madison",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21929",
@@ -1937,7 +1816,7 @@
       "department": "Employee Trust Funds",
       "location": "Madison",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:20831",
@@ -1948,7 +1827,7 @@
       "department": "Safety & Professional Services",
       "location": "Waukesha, Onalaska, Madison, Hayward, Green Bay",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:3375",
@@ -1959,7 +1838,7 @@
       "department": "Administration",
       "location": "Statewide",
       "first_seen": "2026-05-19T18:48:39.095408+00:00",
-      "last_seen": "2026-08-29T12:13:49.905908+00:00"
+      "last_seen": "2026-08-30T11:11:00.620610+00:00"
     },
     {
       "id": "wisc_state:21742",
