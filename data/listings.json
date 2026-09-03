@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-03T10:37:23.605625+00:00",
+  "last_updated": "2026-09-03T12:31:03.129655+00:00",
   "first_run_completed": true,
   "listings": [
     {
@@ -12,7 +12,7 @@
       "department": "Fire",
       "location": "Madison, WI",
       "first_seen": "2026-09-02T10:33:20.826249+00:00",
-      "last_seen": "2026-09-02T12:28:37.544055+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "madison_city:5445249",
@@ -23,7 +23,7 @@
       "department": "Fleet Service",
       "location": "Madison, WI",
       "first_seen": "2026-08-14T07:18:49.818835+00:00",
-      "last_seen": "2026-09-02T12:28:37.544055+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "madison_city:5458785",
@@ -34,7 +34,7 @@
       "department": "CDA Housing Operations",
       "location": "Madison, WI",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-09-02T12:28:37.544055+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "madison_city:5458671",
@@ -45,7 +45,7 @@
       "department": "Information Technology",
       "location": "Madison, WI",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-09-02T12:28:37.544055+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "madison_city:5456823",
@@ -67,7 +67,7 @@
       "department": "Water Utility",
       "location": "110 S. Paterson St. Madison, WI",
       "first_seen": "2026-08-25T06:39:51.730785+00:00",
-      "last_seen": "2026-09-02T12:28:37.544055+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "madison_city:5415258",
@@ -89,7 +89,7 @@
       "department": "Metro Transit",
       "location": "Madison, WI",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-09-02T12:28:37.544055+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "madison_city:5341354",
@@ -111,7 +111,7 @@
       "department": "Water Utility",
       "location": "110 S. Paterson St. Madison, WI",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-09-02T12:28:37.544055+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "uw_madison:administrative-assistant-dept-of-otolaryngology-madison-wisconsin-united-states",
@@ -122,7 +122,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-22T06:33:14.898538+00:00",
-      "last_seen": "2026-09-03T10:37:23.605625+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "uw_madison:administrative-assistant-research-core-madison-wisconsin-united-states",
@@ -133,7 +133,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-22T06:33:14.898538+00:00",
-      "last_seen": "2026-09-03T10:37:23.605625+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "uw_madison:7d3d5e08-1475-4419-8fd8-7cf79b8a72c5",
@@ -144,7 +144,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-09-01T11:02:19.562941+00:00",
-      "last_seen": "2026-09-03T10:37:23.605625+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "uw_madison:administrative-associate-director-madison-wisconsin-united-states",
@@ -155,7 +155,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-09-02T10:33:20.826249+00:00",
-      "last_seen": "2026-09-03T10:37:23.605625+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "uw_madison:assistant-director-of-graduate-training-administration-madison-wisconsin-united-states",
@@ -177,7 +177,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-14T07:18:49.818835+00:00",
-      "last_seen": "2026-09-03T10:37:23.605625+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "uw_madison:business-intelligence-bi-developer-madison-wisconsin-united-states",
@@ -188,7 +188,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-09-03T10:37:23.605625+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "uw_madison:chief-of-staff-madison-wisconsin-united-states",
@@ -199,7 +199,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-18T06:36:29.005465+00:00",
-      "last_seen": "2026-09-03T10:37:23.605625+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "uw_madison:clinical-operations-coordinator-madison-wisconsin-united-states",
@@ -232,7 +232,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-29T12:13:49.905908+00:00",
-      "last_seen": "2026-09-03T10:37:23.605625+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "uw_madison:director-of-information-technology-madison-wisconsin-united-states",
@@ -265,7 +265,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-09-03T10:37:23.605625+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "uw_madison:food-is-medicine-program-manager-madison-wisconsin-united-states",
@@ -298,7 +298,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-09-01T11:02:19.562941+00:00",
-      "last_seen": "2026-09-03T10:37:23.605625+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "uw_madison:managing-director-of-marketing-communications-madison-wisconsin-united-states",
@@ -309,7 +309,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-09-01T11:02:19.562941+00:00",
-      "last_seen": "2026-09-03T10:37:23.605625+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "uw_madison:onboarding-coordinator-madison-wisconsin-united-states",
@@ -331,7 +331,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-20T06:39:10.656090+00:00",
-      "last_seen": "2026-09-03T10:37:23.605625+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "uw_madison:5957bd32-9ffb-47bd-b03b-e79e050e6231",
@@ -386,7 +386,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-27T17:16:59.662021+00:00",
-      "last_seen": "2026-09-03T10:37:23.605625+00:00"
+      "last_seen": "2026-09-03T12:31:03.129655+00:00"
     },
     {
       "id": "uw_madison:urology-administrative-supervisor-madison-wisconsin-united-states",
