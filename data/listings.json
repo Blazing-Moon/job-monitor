@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-06T10:12:37.977510+00:00",
+  "last_updated": "2026-09-06T11:53:25.524957+00:00",
   "first_run_completed": true,
   "listings": [
     {
@@ -12,7 +12,7 @@
       "department": "Fire",
       "location": "Madison, WI",
       "first_seen": "2026-09-02T10:33:20.826249+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "madison_city:5468771",
@@ -23,7 +23,7 @@
       "department": "Engineering",
       "location": "Madison, WI",
       "first_seen": "2026-09-04T10:31:16.501539+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "madison_city:5465755",
@@ -34,7 +34,7 @@
       "department": "Finance",
       "location": "Madison, WI",
       "first_seen": "2026-09-04T10:31:16.501539+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "madison_city:5467887",
@@ -45,7 +45,7 @@
       "department": "Library",
       "location": "Madison, WI",
       "first_seen": "2026-09-04T10:31:16.501539+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "madison_city:5445249",
@@ -56,7 +56,7 @@
       "department": "Fleet Service",
       "location": "Madison, WI",
       "first_seen": "2026-08-14T07:18:49.818835+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "madison_city:5458785",
@@ -78,7 +78,7 @@
       "department": "Information Technology",
       "location": "Madison, WI",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "madison_city:5456823",
@@ -100,7 +100,7 @@
       "department": "Water Utility",
       "location": "110 S. Paterson St. Madison, WI",
       "first_seen": "2026-08-25T06:39:51.730785+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "madison_city:5415258",
@@ -144,7 +144,7 @@
       "department": "Water Utility",
       "location": "110 S. Paterson St. Madison, WI",
       "first_seen": "2026-08-26T06:41:21.918320+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "uw_madison:administrative-assistant-dept-of-otolaryngology-madison-wisconsin-united-states",
@@ -177,7 +177,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-09-01T11:02:19.562941+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "uw_madison:administrative-associate-director-madison-wisconsin-united-states",
@@ -188,7 +188,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-09-02T10:33:20.826249+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "uw_madison:assistant-director-of-graduate-training-administration-madison-wisconsin-united-states",
@@ -221,7 +221,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "uw_madison:chief-of-staff-madison-wisconsin-united-states",
@@ -232,7 +232,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-18T06:36:29.005465+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "uw_madison:communications-digital-content-specialist-madison-wisconsin-united-states",
@@ -254,7 +254,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-29T12:13:49.905908+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "uw_madison:director-of-information-technology-madison-wisconsin-united-states",
@@ -287,7 +287,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-28T18:09:18.006646+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "uw_madison:informatics-data-services-unit-head-madison-wisconsin-united-states",
@@ -309,7 +309,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-09-01T11:02:19.562941+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "uw_madison:managing-director-of-marketing-communications-madison-wisconsin-united-states",
@@ -320,7 +320,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-09-01T11:02:19.562941+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "uw_madison:people-office-manager-madison-wisconsin-united-states",
@@ -353,7 +353,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-09-05T09:54:40.072894+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "uw_madison:software-engineer-developer-iii-madison-wisconsin-united-states",
@@ -375,7 +375,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-08-27T17:16:59.662021+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "uw_madison:vice-dean-for-administration-and-finance-chief-operating-officer-madison-wisconsin-united-states",
@@ -386,7 +386,7 @@
       "department": "",
       "location": "",
       "first_seen": "2026-09-05T09:54:40.072894+00:00",
-      "last_seen": "2026-09-06T10:12:37.977510+00:00"
+      "last_seen": "2026-09-06T11:53:25.524957+00:00"
     },
     {
       "id": "wisc_state:21776",
