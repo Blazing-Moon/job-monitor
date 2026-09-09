@@ -1,19 +1,24 @@
 name: scrape
 
 on:
-  schedule:
-    # Primary run: 06:00 UTC daily = midnight CST / 01:00 CDT.
-    # Deliberately overnight to sidestep what looks like business-hours
-    # IP throttling of GitHub Actions runners by the wisc.jobs WAF —
-    # the site loads fine from residential IPs during the same window
-    # where our runs get ConnectTimeouts.
-    - cron: '0 6 * * *'
-    # Safety-net run: 08:00 UTC daily = 02:00 CST / 03:00 CDT. Runs 2h
-    # after the primary; skips immediately (via the freshness gate in
-    # update.py) if the primary already succeeded. Both windows are
-    # squarely off-peak in Central time under either DST regime.
-    # GitHub cron is best-effort; actual runs may slip 15-60 min.
-    - cron: '0 8 * * *'
+  # Scheduled runs disabled — the person this was scraping for got a
+  # job and no longer needs a daily digest. Kept as reference in case
+  # a family member wants to revive it: uncomment the `schedule:` block
+  # below to resume daily runs overnight in US Central time.
+  #
+  # schedule:
+  #   # Primary run: 06:00 UTC daily = midnight CST / 01:00 CDT.
+  #   # Deliberately overnight to sidestep what looks like business-hours
+  #   # IP throttling of GitHub Actions runners by the wisc.jobs WAF —
+  #   # the site loads fine from residential IPs during the same window
+  #   # where our runs get ConnectTimeouts.
+  #   - cron: '0 6 * * *'
+  #   # Safety-net run: 08:00 UTC daily = 02:00 CST / 03:00 CDT. Runs 2h
+  #   # after the primary; skips immediately (via the freshness gate in
+  #   # update.py) if the primary already succeeded. Both windows are
+  #   # squarely off-peak in Central time under either DST regime.
+  #   # GitHub cron is best-effort; actual runs may slip 15-60 min.
+  #   - cron: '0 8 * * *'
   workflow_dispatch: {}
 
 permissions:
