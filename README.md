@@ -4,6 +4,12 @@ A weekly rundown of new Madison-area job listings from three sources,
 published as a small static site:
 **<https://blazing-moon.github.io/job-monitor/>**
 
+> **Status: dormant.** The person this was built for got a job, so the
+> daily scheduled scrape has been disabled. Everything still works and
+> can be re-enabled — see [How to revive it](#how-to-revive-it) below.
+> The published page will keep showing the last-scraped snapshot until
+> then.
+
 ## What the site shows
 
 The page has three sections:
@@ -48,18 +54,35 @@ page still shows the previous day's data for that source, plus an
   statewide postings).
 - **City of Madison Careers** (governmentjobs.com).
 
+## How to revive it
+
+If you want the daily digest running again:
+
+1. **Uncomment the `schedule:` block** in
+   [`.github/workflows/scrape.yml`](.github/workflows/scrape.yml). It's
+   already set up for two overnight runs in US Central time.
+2. **Optionally trigger one run manually** to prime things: GitHub
+   → Actions → **scrape** → **Run workflow** → **main**.
+
+If you want to point it at *different* sources (different city, different
+job boards), edit the scrapers under `scrapers/`; each source is one
+module. The "For developers" section below is the tour.
+
 ---
 
 ## For developers
 
 ### How it works
 
-1. `.github/workflows/scrape.yml` runs twice daily and on manual
-   dispatch:
+1. `.github/workflows/scrape.yml` supports manual dispatch and (when
+   re-enabled) two daily scheduled runs:
    - **Primary** at 06:00 UTC (midnight CST / 01:00 CDT).
    - **Safety-net** at 08:00 UTC (02:00 CST / 03:00 CDT), which
      exits immediately if every source in state has a `last_seen`
      within the last 6 hours — i.e., the primary already succeeded.
+
+   The `schedule:` block is currently commented out; see
+   [How to revive it](#how-to-revive-it) above.
 2. `update.py` fetches each source, parses listings, and merges them
    into `data/listings.json`. Each listing has `first_seen` and
    `last_seen` UTC timestamps.
